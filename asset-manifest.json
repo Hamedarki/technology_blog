@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/technology_blog/static/css/main.338b3993.css",
+    "main.js": "/technology_blog/static/js/main.26bd3cb8.js",
+    "static/js/787.656b7e28.chunk.js": "/technology_blog/static/js/787.656b7e28.chunk.js",
+    "static/media/Illustration.svg": "/technology_blog/static/media/Illustration.1d6a082e292ee4954bf70562ca54c32b.svg",
+    "static/media/Rectangle 1.svg": "/technology_blog/static/media/Rectangle 1.0dedd6e9f4f895091876.svg",
+    "static/media/Logos.svg": "/technology_blog/static/media/Logos.2ee438647ab6687f8d881934e6435378.svg",
+    "static/media/FedEx Logo.svg": "/technology_blog/static/media/FedEx Logo.4636cc2720b9764b741b77d357dff217.svg",
+    "static/media/OYO Logo.svg": "/technology_blog/static/media/OYO Logo.9ef18464727c0a79da0318dfc67b9c18.svg",
+    "static/media/Illustration (1).svg": "/technology_blog/static/media/Illustration (1).2227f62f81ccd3ec098f16e5f4f33b8a.svg",
+    "static/media/Google Logo.svg": "/technology_blog/static/media/Google Logo.8a081c4a5772cb9808947098e4795ec0.svg",
+    "static/media/Airbnb Logo.svg": "/technology_blog/static/media/Airbnb Logo.17bdfb7868a114384a36f4a1b59a9354.svg",
+    "static/media/BookMyShow Logo.svg": "/technology_blog/static/media/BookMyShow Logo.8733d7a98943ad4b19beeb85e691f184.svg",
+    "static/media/Microsoft Logo.svg": "/technology_blog/static/media/Microsoft Logo.963360eeea64705d3d52aa96aa71cc0b.svg",
+    "static/media/Amazon Logo.svg": "/technology_blog/static/media/Amazon Logo.9ed0db55cfc7a3f3eb18cbfbdcd30a5d.svg",
+    "static/media/OLA Logo.svg": "/technology_blog/static/media/OLA Logo.3edc657fe909f41e392e8a703b47938a.svg",
+    "static/media/FigmaLogo.svg": "/technology_blog/static/media/FigmaLogo.594b051e06a2fd4ec21c275716912852.svg",
+    "static/media/Crown.svg": "/technology_blog/static/media/Crown.604537e3c21c9dcc8119cdc846305adf.svg",
+    "static/media/Users.svg": "/technology_blog/static/media/Users.b6c847a83cd43d065a24a43b08dff94f.svg",
+    "static/media/Star.svg": "/technology_blog/static/media/Star.3ff79984c32d994fc7a6422a924b3aef.svg",
+    "static/media/ChartPieSlice.svg": "/technology_blog/static/media/ChartPieSlice.46a47889ead3d152dc94dbde404b2b04.svg",
+    "static/media/File.svg": "/technology_blog/static/media/File.63b9889b1e2e943d48180ad0fa23d769.svg",
+    "index.html": "/technology_blog/index.html",
+    "static/media/ChartBar.svg": "/technology_blog/static/media/ChartBar.c426967e97cf7cf11979eb52d5dd099a.svg",
+    "main.338b3993.css.map": "/technology_blog/static/css/main.338b3993.css.map",
+    "main.26bd3cb8.js.map": "/technology_blog/static/js/main.26bd3cb8.js.map",
+    "787.656b7e28.chunk.js.map": "/technology_blog/static/js/787.656b7e28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.338b3993.css",
+    "static/js/main.26bd3cb8.js"
+  ]
+}
