@@ -1,3 +1,18 @@
+#Sources 🖥️
+--------------------------------------------------------------------------------
+🔎 source design figma : https://www.figma.com/community/file/992410574427069906
+
+🔎 source API : https://newsapi.org/
+
+
+# About Project 🤖
+---------------------------------------------------------------------------------
+🔎tech blog is a blog for tech news and important news in the world 
+
+🔎created by tailwind and react and fetch data by (react query)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
