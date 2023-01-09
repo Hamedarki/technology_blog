@@ -1,8 +1,13 @@
 import "../../index.css";
-// import { slide as Menu } from 'react-burger-menu'
+import { useMediaQuery } from "react-responsive";
+
+import { slide as Menu } from 'react-burger-menu'
 import{HiMenu} from 'react-icons/hi'
 // import { useState } from "react";
 const Header = () => {
+
+  let isMobileScreen = useMediaQuery({ query: `(max-width: 760px)` });
+
   //  const [menu , setMenu] = useState(false)
   //  const showSettings = (event) => {
   //     event.preventDefault();
@@ -16,7 +21,7 @@ const Header = () => {
     <div
       className={`bg-hero-pattern overflow-hidden  flex flex-col max-w-fit justify-start gap-20 h-[790px]  md:h-[100vh] bg-no-repeat  md:bg-center md:bg-cover   w-screen`}
     >
-      <nav className=" hidden md:flex md:flex-row gap-10 p-4 text-sm font-semibold  justify-center relative left-28 top-4">
+      { !isMobileScreen ? <nav className=" hidden md:flex md:flex-row gap-10 p-4 text-sm font-semibold  justify-center relative left-28 top-4">
         <ul className="flex flex-row justify-evenly gap-10">
           <li className="hover:text-white hover:bg-[#F84646] text-center cursor-pointer duration-700 ease-in-out rounded-md p-2">
             Solution and Services
@@ -38,20 +43,21 @@ const Header = () => {
           Sign Up
         </button>
       </nav>
-      <div className=" flex flex-row justify-between py-10 px-6 md:hidden " id="menu">
+      :<div className=" flex flex-row justify-between py-10 px-6 md:hidden " id="menu">
          <button className="hover:text-white rounded-md  cursor-pointer duration-700 ease-in-out  bg-[#F84646] w-[91px] h-[40px]">
           Sign Up
         </button>
-        <HiMenu size={'40px'} >
-            {/* {<Menu pageWrapId={ "page-wrap" } width={'100vw'} className=''>
+         {/* <HiMenu size={'40px'} >
+            
+        </HiMenu>} */}
+      {/* <button><Menu pageWrapId={ "page-wrap" } width={'100vw'} className='absolute z-20 right-60'>
             <a id="home" className="menu-item" href="/">Home</a>
             <a id="about" className="menu-item" href="/about">About</a>
             <a id="contact" className="menu-item" href="/contact">Contact</a>
-            <a onClick={showSettings} className="menu-item--small" >Settings</a>
-            </Menu>} */}
-        </HiMenu>
-  
-      </div>
+            <a  className="menu-item--small" href="/contact">Settings</a>
+        </Menu>click</button> */}
+      
+      </div>}
       <div className="flex flex-col items-center relative right-[215px] top-4 gap-7">
         <h2 className=" text-4xl md:text-5xl font-bold md:w-1/2  relative left-52 top-32 text-center md:text-left md:static">
           
