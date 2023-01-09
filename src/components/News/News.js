@@ -10,10 +10,12 @@ const News = () => {
     
   const [post , setPost] = useState([])
 const [req , setReq] = useState(false)
+const [show , setShow] = useState(false)
 
 
   const getNewNews = () =>{
    setReq((preReq) => !preReq)
+   setShow((preshow) =>!preshow)
   }
 
   useEffect(() => {
@@ -42,7 +44,7 @@ const [req , setReq] = useState(false)
          </div>
          <img src={news2} alt='conversation' className='h-[470px] w-[500px] rounded-lg hover:opacity-90 duration-700'/>
       </div>
-      <button onClick={getNewNews}  className='w-[100%] md:w-[160px] h-[48px] bg-[#F84646] font-semibold  relative right-0  hover:text-white rounded-md  cursor-pointer duration-700 ease-in-out '>More News</button>
+      {!show && <button onClick={getNewNews}  className='w-[100%] md:w-[160px] h-[48px] bg-[#F84646] font-semibold  relative right-0  hover:text-white rounded-md  cursor-pointer duration-700 ease-in-out '>More News</button>}
       <div className='flex flex-col items-center justify-center gap-28'>
       {req && <NewNews post={post} setPost={setPost}/>}
       </div>

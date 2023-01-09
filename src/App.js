@@ -10,7 +10,7 @@ function App() {
   const queryClient = new QueryClient();
 
   return (
-    <QueryClientProvider client={queryClient}>
+    <QueryClientProvider client={queryClient} >
       <div className="overflow-hidden">
         <Header />
         <Property />
